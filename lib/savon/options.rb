@@ -32,7 +32,7 @@ module Savon
       end
     end
 
-    def method_missing(option, _)
+    def method_missing(option, _ = nil)
       raise UnknownOptionError, "Unknown #{option_type} option: #{option.inspect}"
     end
   end
