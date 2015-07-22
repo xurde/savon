@@ -1,3 +1,7 @@
+# 2.11.2 (2015-07-27)
+
+* Add support for :body_namespace option config.
+
 # 2.11.1 (2015-05-27)
 
 * Replace dependency on [uuid](https://rubygems.org/gems/uuid), using SecureRandom.uuid instead.
