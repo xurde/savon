@@ -351,7 +351,7 @@ module Savon
 
       defaults = {
         :advanced_typecasting => true,
-        :response_parser      => :nokogiri,
+        :response_parser      => :nokogiri2,
         :multipart            => false
       }
 
